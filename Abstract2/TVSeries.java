@@ -3,6 +3,10 @@ package Abstract2;
 public class TVSeries extends Video{
     private int episodes;
 
+    public void setEpisodes(int episodes) {
+        this.episodes = episodes;
+    }
+
     public TVSeries(String title, int duration) {
         super(title, duration);
     }

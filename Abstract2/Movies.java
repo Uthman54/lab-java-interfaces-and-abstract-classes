@@ -3,6 +3,10 @@ package Abstract2;
 public class Movies extends Video{
     double rating;
 
+    public void setRating(double rating) {
+        this.rating = rating;
+    }
+
     public Movies(String title, int duration) {
         super(title, duration);
     }
