@@ -12,6 +12,6 @@ public class UtilityVehicle extends Car{
     }
 
     @Override
-    public String getInfo() {return "VIN: " + this.getVinNumber() + ", Make: " + this.getMake() + ", Model: " + this.getModel() + ", Mileage: " + this.getMileage() + ", Four Wheel Drive: " + this.getfourWheelDrive;
+    public String getInfo() {return "VIN: " + this.getVinNumber() + ", Make: " + this.getMake() + ", Model: " + this.getModel() + ", Mileage: " + this.getMileage() + ", Four Wheel Drive: " + this.getFourWheelDrive;
     }
 }

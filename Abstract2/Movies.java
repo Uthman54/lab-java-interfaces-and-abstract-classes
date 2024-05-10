@@ -1,7 +1,7 @@
 package Abstract2;
 
 public class Movies extends Video{
-    double rating;
+   private double rating;
 
     public void setRating(double rating) {
         this.rating = rating;
