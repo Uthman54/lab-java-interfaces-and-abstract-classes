@@ -8,6 +8,6 @@ public class Sedan extends Car{
 
     @Override
     public String getInfo() {
-        return "";
+        return  "VIN: " + this.getVinNumber() + ", Make: " + this.getMake() + ", Model: " + this.getModel() + ", Mileage: " + this.getMileage();
     }
 }

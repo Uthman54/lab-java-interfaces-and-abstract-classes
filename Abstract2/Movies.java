@@ -13,6 +13,6 @@ public class Movies extends Video{
 
     @Override
     public String getInfo() {
-        return "";
+        return  "Title: " + this.getTitle() + ", Duration: " + this.getDuration() + ", Rating: " + this.getRating();
     }
 }
