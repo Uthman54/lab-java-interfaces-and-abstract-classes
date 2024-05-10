@@ -25,8 +25,7 @@ abstract class Car {
         return model;
     }
 
-    public int getMileage() {
-        return mileage;
+    public int getMileage() {return mileage;
     }
 
     public abstract String getInfo();
