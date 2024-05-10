@@ -3,6 +3,10 @@ package Abstract;
 public class UtilityVehicle extends Car{
     private boolean fourWheelDrive;
 
+    public void setFourWheelDrive(boolean fourWheelDrive) {
+        this.fourWheelDrive = fourWheelDrive;
+    }
+
     public boolean FourWheelDrive() {
         return fourWheelDrive;
     }

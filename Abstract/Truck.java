@@ -3,6 +3,10 @@ package Abstract;
 public class Truck extends Car{
     private double towingCapacity;
 
+    public void setTowingCapacity(double towingCapacity) {
+        this.towingCapacity = towingCapacity;
+    }
+
     public double getTowingCapacity() {
         return towingCapacity;
     }
